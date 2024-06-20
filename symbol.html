@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>X Symbol with CSS</title>
+<style>
+  .container {
+    position: relative;
+    width: 50px;  
+    height: 50px; 
+  }
+  .line {
+    position: absolute;
+    width: 10px;   
+    height: 100%;  
+    top: 0;
+    left: 50%;
+    transform-origin: center;
+  }
+  .first {
+    transform: rotate(45deg);
+	background-color: blueviolet;
+  }
+  .second {
+    transform: rotate(-45deg);
+	background-color: aqua;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="line first"></div>
+  <div class="line second"></div>
+</div>
+
+</body>
+</html>
