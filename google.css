@@ -1,0 +1,73 @@
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:20px;
+    margin-top: 15px;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+.logo{
+    border-radius: 15px;
+}
+a{
+    align-self: flex-end;
+    text-decoration: none;
+}
+
+img:hover{
+    border-radius: 150px;
+    background-color: rgb(126, 132, 132);
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    width: 1300px;
+    height: 400px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.recentdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    width: 50px;
+    flex: 1 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover{
+    background-color: rgb(74, 81, 81);
+    border-radius: 15px;
+}
+.title{
+    font-family: Helvetica, sans-serif;
+    font-weight: 1400;
+    font-size: 56px;
+}
+.search{
+    width: 600px;
+    height: 40px;
+    border-radius: 15px;
+}
+.search::placeholder{
+    text-align: start;
+    font-size: 24px;
+    margin-left: 20px;
+}
+h1{
+    margin: 0px;
+}

@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1300px;
+    height: 800px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.titlediv{
+    width: 1100px;
+    height: 50px;
+    background-color: rgb(247, 158, 42);
+    box-sizing: border-box;
+    flex-basis: 10%;
+}
+.titlediv h1{
+    text-align: center;
+    color: white;
+}
+.navdiv{
+    width: 1100px;
+    height: 60px;
+    background-color: rgb(242, 234, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.item {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(244, 236, 236);
+    color: rgb(244, 136, 4);
+    border: 2px solid rgb(245, 121, 121);
+    box-sizing: border-box;
+    text-align: center;
+   padding-top: 7px;
+}
+.contentdiv{
+    width: 1100px;
+    display: flex;
+    box-sizing: border-box;
+    /* justify-content: space-around; */
+    gap: 10px;
+    margin-top: 10px;
+    border: 5px solid white;
+}
+.contentdiv img {
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    margin: 20px ;
+}
+
+.img{
+    width: 350px;
+    height: 400px;
+    border: 5px solid rgb(244, 116, 84);
+}
+
+.btn{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(255, 165, 29);
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 20px;
+}
+.img p {
+    margin: 10px;
+}
+
+.footerdiv{
+    width: 1100px;
+    height: 40px;
+    background-color: blue;
+   text-align: center;
+}
